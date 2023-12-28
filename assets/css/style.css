@@ -27,15 +27,19 @@ display: flex;
 padding: 0 1rem;
 justify-content: space-between;
 z-index: 99;
-align-items: baseline;
-box-shadow: 0 2px 2px red;
-height: 100px;
+align-items: center;
+box-shadow: 0 2px 2px rgb(202 45 37);
+padding: 12px ;
 
 }
 
 header a {
     text-decoration: none;
-    color: red;
+    color: rgb(202 45 37);
+}
+
+.header-logo {
+    display: none;
 }
 
 #menu {
@@ -52,7 +56,8 @@ header a {
 
 #menu > li {
     margin-bottom: 1em;
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid rgb(255,255,255);
+    color: rgb(255,255,255);
 }
 
 #nav-container {
@@ -61,24 +66,32 @@ header a {
     left:0;
     right:0;
     height: 100vh;
-    background-color: #fff;
+    background-color: rgb(202 45 37);
     z-index: 100;
     transform: translateX(100%);
     transition: all .2s ease-out;
+    opacity: 0;
 }
 
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
     transform: translateX(0);
+    opacity: 1;
 }
 
 .close-menu.fa-solid {
     display:none;
+    color: rgb(255 255 255)
+}
+
+.open-menu.fa-solid {
+    color:rgb(186 60 47)
 }
 
 #nav-toggle:checked~label>.open-menu {
     display:none;
+    
 }
 #nav-toggle:checked~label>.close-menu {
     display:block;
@@ -97,10 +110,28 @@ header a {
 main {
     /* Make main element take up any surplus space to push footer down to bottom */
     flex: 1 0 auto;
-    margin-top:
+    margin-top: 62px;
 }
 
 footer {
     background-color: orange;
+
+}
+
+/* Media query: Tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+/* Header */
+header {
+    font-size: 150%;
+    padding-right: 32px;
+}
+
+.header-logo {
+    display: block;
+    width: 80px;
+    height: 60px;
+    padding-left: 20px;
+}
 
 }
