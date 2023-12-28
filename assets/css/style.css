@@ -63,12 +63,25 @@ header a {
     height: 100vh;
     background-color: #fff;
     z-index: 100;
+    transform: translateX(100%);
+    transition: all .2s ease-out;
 }
 
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
-    display: block;
+    transform: translateX(0);
+}
+
+.close-menu.fa-solid {
+    display:none;
+}
+
+#nav-toggle:checked~label>.open-menu {
+    display:none;
+}
+#nav-toggle:checked~label>.close-menu {
+    display:block;
 }
 
 #nav-toggle {
