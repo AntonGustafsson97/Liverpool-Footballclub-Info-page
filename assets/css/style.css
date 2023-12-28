@@ -1,8 +1,49 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
 /* General Styles */
 
-Body {
-    background-color: aqua;
+body {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto', sans-serif;
+}
+
+/* Header */
+header {
+background-color: #303030;
+width:100%;
+position: fixed;
+display: flex;
+padding: 0 1rem;
+justify-content: space-between;
+z-index: 99;
+align-items: baseline;
+box-shadow: 0 2px 2px #white;
+
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+    /* Make main element take up any surplus space to push footer down to bottom */
+    flex: 1 0 auto;
+    margin-top:
+}
+
+footer {
+    background-color: orange;
+
 }
