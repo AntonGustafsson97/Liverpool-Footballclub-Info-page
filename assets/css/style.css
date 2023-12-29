@@ -65,16 +65,12 @@ header a {
     width: 100%;
     background: url("../images/liverpool.winning.png") no-repeat center center/cover;
     position:relative;
-    
 }
 
-#hero div {
-    background-color: rgba(0, 0, 0, .6);
-
-}
-
-#hero-text {
-
+.hero-image {
+    position: absolute;
+    top:0;left:0;right:0;bottom:0;
+    background-color: rgba(0,0,0,0.3);
 }
 
 #nav-container {
@@ -128,6 +124,10 @@ main {
     /* Make main element take up any surplus space to push footer down to bottom */
     flex: 1 0 auto;
     margin-top: 62px;
+}
+
+h2 {
+    z-index: 99;
 }
 
 footer {
