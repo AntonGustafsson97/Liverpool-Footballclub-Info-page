@@ -5,7 +5,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 /* General Styles */
@@ -20,16 +20,16 @@ body {
 
 /* Header */
 header {
-background-color: #fafafa;
-width:100%;
-position: fixed;
-display: flex;
-padding: 0 1rem;
-justify-content: space-between;
-z-index: 99;
-align-items: center;
-box-shadow: 0 2px 2px rgb(202 45 37);
-padding: 12px ;
+    background-color: #fafafa;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    padding: 0 1rem;
+    justify-content: space-between;
+    z-index: 99;
+    align-items: center;
+    box-shadow: 0 2px 2px rgb(202 45 37);
+    padding: 12px;
 
 }
 
@@ -50,40 +50,44 @@ header a {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 100%;
-
+    height: 200px;
+    margin-top: 60px;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
-    border-bottom: 1px solid rgb(255,255,255);
-    color: rgb(255,255,255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: medium;
 }
 
 #hero {
     height: 600px;
     width: 100%;
     background: url("../images/liverpool.winning.png") no-repeat center center/cover;
-    position:relative;
+    position: relative;
 }
 
 .hero-image {
     position: absolute;
-    top:0;left:0;right:0;bottom:0;
-    background-color: rgba(0,0,0,0.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 #nav-container {
     position: absolute;
     top: 0;
-    left:0;
-    right:0;
-    height: 100vh;
+    right: 0;
+    height: 300px;
     background-color: rgb(202 45 37);
     z-index: 100;
     transform: translateX(100%);
     transition: all .2s ease-out;
     opacity: 0;
+    width: 30%;
 }
 
 
@@ -94,20 +98,21 @@ header a {
 }
 
 .close-menu.fa-solid {
-    display:none;
+    display: none;
     color: rgb(255 255 255)
 }
 
 .open-menu.fa-solid {
-    color:rgb(186 60 47)
+    color: rgb(186 60 47)
 }
 
 #nav-toggle:checked~label>.open-menu {
-    display:none;
-    
+    display: none;
+
 }
+
 #nav-toggle:checked~label>.close-menu {
-    display:block;
+    display: block;
 }
 
 #nav-toggle {
@@ -135,26 +140,62 @@ footer {
 
 }
 
+#facts h2 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#players {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.player {
+    max-width: 95%;
+    margin-top: 30px;
+    padding-left: 15px;
+}
+
+.player h3 {
+    margin-bottom: 10px;
+}
+
+.player-image {
+    height:120px;
+    width:120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 /* Media query: Tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-/* Header */
-header {
-    font-size: 150%;
-    padding-right: 32px;
-    
-}
+    /* Header */
+    header {
+        font-size: 150%;
+        padding-right: 32px;
 
-.header-logo {
-    display: block;
-    width: 80px;
-    height: 60px;
-    padding-left: 20px;
-}
+    }
 
-/* Main */
-main {
-    margin-top: 84px;
-}
+    .header-logo {
+        display: block;
+        width: 80px;
+        height: 60px;
+        padding-left: 20px;
+    }
+
+    /* Main */
+    main {
+        margin-top: 84px;
+    }
+
+    #players {
+        flex-direction: row;
+    }
+
+    .player {
+        max-width: 32%
+    }
 
 }
