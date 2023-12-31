@@ -135,11 +135,6 @@ h2 {
     z-index: 99;
 }
 
-footer {
-    background-color: orange;
-
-}
-
 #facts h2 {
     text-align: center;
     margin-top: 15px;
@@ -257,6 +252,25 @@ footer {
     border: none;
     font-weight: 800;
     border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(186 60 47);
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: white;
 }
 
 
