@@ -178,6 +178,89 @@ footer {
 
 }
 
+.gallery-container {
+    margin: 24px 0;
+    max-height: 200px;
+    max-width: 100vw;
+    overflow-x: scroll;
+    display: flex;
+    gap: 4px;
+    scroll-snap-type: x mandatory;
+    padding-left: 12px;
+}
+
+.gallery-container>div {
+    min-width: 92vw;
+    max-height: 100%;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+.gallery-container>div>img {
+    max-height: 90%;
+    width: 90%;
+    object-fit: contain;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+
+
+.gallery-container>div>p {
+    padding: 4px;
+}
+
+
+#signup {
+    padding: 24px;
+}
+
+#signup-form {
+    max-width: 400px;
+    background-color: rgb(186 60 47);
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    color: white
+}
+
+#name-container {
+    display: flex;
+    align-items: center;
+}
+
+#name-container>div {
+    max-width: 48%;
+}
+
+#email-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#signup-form input {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: rgb(186 60 47);
+    flex: 1;
+}
+
+#signup-form button {
+    padding: 12px 24px;
+    background-color: white;
+    color: rgb(186 60 47);
+    text-transform: uppercase;
+    line-height: 100%;
+    border: none;
+    font-weight: 800;
+    border-radius: 8px;
+}
+
+
+
 /* Media query: Tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -208,4 +291,34 @@ footer {
         max-width: 32%
     }
 
+
+    .gallery-container {
+        max-height: 400px;
+    }
+}
+
+
+@media screen and (min-width: 1090px) {
+
+    .gallery-container {
+        max-height: none;
+        max-width: 100vw;
+        overflow: initial;
+        padding-left: 0;
+
+    }
+
+
+    .gallery-container>div {
+        min-width: 0;
+        max-width: none;
+        flex: 1;
+        height: 300px;
+    }
+
+    .gallery-container>div>img {
+        width: 100%;
+        border-radius: 0px;
+        background-color: #fff;
+    }
 }

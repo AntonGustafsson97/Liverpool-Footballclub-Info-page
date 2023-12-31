@@ -6,3 +6,4 @@ Hero picture: <https://www.liverpoolfc.com/>
 
 
 player pics: britanica , wiki, the irish sun
+gallery pics: wiki, the guardian
