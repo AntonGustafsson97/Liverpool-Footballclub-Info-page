@@ -18,6 +18,11 @@ body {
     font-family: 'roboto', sans-serif;
 }
 
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /* Header */
 header {
     background-color: #fafafa;
@@ -223,20 +228,20 @@ h2 {
 
 #name-container {
     display: flex;
-    align-items: center;
+    flex-direction: column;
 }
 
+
+#email-container,
 #name-container>div {
-    max-width: 48%;
-}
-
-#email-container {
+    margin-top: 4px;
     display: flex;
     flex-direction: column;
 }
 
 
 #signup-form input {
+    box-sizing: border-box;
     padding: 4px 6px;
     font-size: 16px;
     color: rgb(186 60 47);
@@ -252,6 +257,7 @@ h2 {
     border: none;
     font-weight: 800;
     border-radius: 8px;
+    margin-top: 8px;
 }
 
 /* Footer */
@@ -309,7 +315,18 @@ footer {
     .gallery-container {
         max-height: 400px;
     }
+
+    #name-container {
+        flex-direction: row;
+
+    }
+
+    #name-container>div {
+        flex: 1;
+        max-width: 50%;
+    }
 }
+
 
 
 @media screen and (min-width: 1090px) {
