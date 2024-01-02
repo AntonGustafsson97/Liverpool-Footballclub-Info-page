@@ -204,6 +204,11 @@ h2 {
     background-color: #fff;
 }
 
+#gallery h2 {
+    text-align: center;
+    margin-top: 15px;
+}
+
 
 
 .gallery-container>div>p {
@@ -353,3 +358,4 @@ footer {
         background-color: #fff;
     }
 }
+
