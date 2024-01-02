@@ -189,6 +189,7 @@ h2 {
     gap: 4px;
     scroll-snap-type: x mandatory;
     padding-left: 12px;
+    overflow-y: hidden;
 }
 
 .gallery-container>div {
