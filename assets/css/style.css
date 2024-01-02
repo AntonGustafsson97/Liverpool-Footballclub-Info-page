@@ -183,7 +183,6 @@ h2 {
 
 .gallery-container {
     margin: 24px 0;
-    max-height: 200px;
     max-width: 100vw;
     overflow-x: scroll;
     display: flex;
