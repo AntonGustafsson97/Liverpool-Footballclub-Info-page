@@ -35,12 +35,15 @@ header {
     align-items: center;
     box-shadow: 0 2px 2px rgb(202 45 37);
     padding: 12px;
-
 }
 
 header a {
     text-decoration: none;
     color: rgb(202 45 37);
+}
+
+.menu-item {
+    color:#fafafa
 }
 
 .header-logo {
@@ -63,7 +66,7 @@ header a {
     margin-bottom: 1em;
     border-bottom: 1px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
-    font-size: medium;
+    font-size: small;
 }
 
 #hero {
@@ -86,13 +89,13 @@ header a {
     position: absolute;
     top: 0;
     right: 0;
-    height: 300px;
+    height: 270px;
     background-color: rgb(202 45 37);
     z-index: 100;
     transform: translateX(100%);
     transition: all .2s ease-out;
     opacity: 0;
-    width: 30%;
+    width: 40%;
 }
 
 
@@ -125,7 +128,7 @@ header a {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 1rem;
     z-index: 101;
 }
 

@@ -33,10 +33,10 @@
 
         <nav id="nav-container">
             <ul id="menu">
-                <li> <a href="#hero">Home</a></li>
-                <li> <a href="#facts">Players</a></li>
-                <li> <a href="#gallery">Gallery</a></li>
-                <li> <a href="#signup">Sign up</a></li>
+                <li> <a class="menu-item" href="#hero">Home</a></li>
+                <li> <a class="menu-item" href="#facts">Players</a></li>
+                <li> <a class="menu-item" href="#gallery">Gallery</a></li>
+                <li> <a class="menu-item" href="#signup">Sign up</a></li>
             </ul>
         </nav>
     </header>
@@ -106,7 +106,7 @@
             </div>
 
         </section>
-        <section id="facts"></section>
+        <section>
 
         <div id="players">
             <div class="player">
@@ -186,26 +186,26 @@
 
         <!-- Signup section -->
         <section id="signup">
-            <form action="https://google.com" id="signup-form">
+            <form method="POST" action="https://formdump.codeinstitute.net/" id="signup-form">
                 <h3>Sign up to our newsletter!</h3>
                 <div id="name-container">
                     <div>
 
                         <label for="fname">First name</label>
-                        <input placeholder="First name" id="fname" type="text" required />
+                        <input placeholder="First name" id="fname" type="text" required name="fname" />
                     </div>
 
                     <div>
 
                         <label for"lname">Last name</label>
-                        <input id="lname" placeholder="Last name" type="text" required />
+                        <input id="lname" placeholder="Last name" type="text" required name="lname"/>
                     </div>
                 </div>
 
                 <div id="email-container">
                     <label for"email">Email</label>
 
-                    <input placeholder="Email" type="email" required />
+                    <input placeholder="Email" type="email" required name="email" />
                 </div>
 
                 <button type="submit">Get latest news!</button>
