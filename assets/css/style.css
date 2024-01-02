@@ -148,7 +148,7 @@ h2 {
     margin-top: 15px;
 }
 
-#players {
+.players {
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -311,7 +311,7 @@ footer {
         margin-top: 84px;
     }
 
-    #players {
+    .players {
         flex-direction: row;
     }
 
