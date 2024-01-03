@@ -127,6 +127,71 @@ Wireframes were produced using Balsamiq.
    - [Responsinator] (http://www.responsinator.com/?url=https%3A%2F%2Fantongustafsson97.github.io%2FLiverpool-Footballclub-Info-page%2Findex.html)
    - [Am i responsive] (https://ui.dev/amiresponsive?url=https://antongustafsson97.github.io/Liverpool-Footballclub-Info-page/index.html)
 
+### Friends and Family User Testing
+I asked my family and a couple of friends to look at the website and tell me anything they felt were disturbing or hard to understand.
+
+### Fixed Bugs
+ 
+-The gallery section had a max-height set to it which led to a scrollbar appeared. By removing the max-height it fixed the issue.
+
+-The list in the nav element was not visable becuase it took the same color as the background of the menu. By creating a class for each list item i could then apply styles directly to them, setting their color to white instead of the red that the menu had.
+
+### Known Bugs
+
+-HTML Smooth scroll does not work on Safari browser.
+
+## Technologies Used
+
+### Languages
+
+- HTML5
+- CSS
+
+### Frameworks - Libraries - Programs Used
+
+- [Am I Responsive](http://ami.responsivedesign.is/) - Used to verify responsiveness of website on different devices.
+- [Responsinator](http://www.responsinator.com/) - Used to verify responsiveness of website on different devices.
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used for overall development and tweaking, including testing responsiveness and performance.
+- [Font Awesome](https://fontawesome.com/) - Used for Social Media icons in footer.
+- [GitHub](https://github.com/) - Used for version control and hosting.
+- [Google Fonts](https://fonts.google.com/) - Used to import and alter fonts on the page.
+- [TinyPNG](https://tinypng.com/) - Used to compress images to reduce file size without a reduction in quality.
+- [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
+
+## Deployment
+
+The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
+
+1. Go to the repository on GitHub.com
+2. Select 'Settings' near the top of the page.
+3. Select 'Pages' from the menu bar on the left of the page.
+4. Under 'Source' select the 'Branch' dropdown menu and select the main branch.
+5. Once selected, click the 'Save'.
+6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
+
+The live link can be found here - [Liverpool FC Info Page](https://antongustafsson97.github.io/Liverpool-Footballclub-Info-page/)
+
+## Credits
+
+### Content
+All information about the club and players was found at these websites:
+
+-[Give Me Sport](https://www.givemesport.com/)
+-[Wikipedia](https://www.wikipedia.org/)
+
+### Media
+All the images displayed on the website was found on these website:
+
+-[Britanica](https://www.britannica.com/)
+-[Wikipedia](https://www.wikipedia.org/)
+-[The Irish Sun](https://www.thesun.ie/)
+-[The Guardian](https://www.theguardian.com/europe)
+
+## Acknowledgments
+
+I would like to thank everyone on the Slack community who helped me when i got stuck. Very quick and helpful responses.
+
+I would also like to thank my mentor Antonio for the help he gave me and his input in the project.
 
 
 
