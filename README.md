@@ -48,11 +48,15 @@ Wireframes were produced using Balsamiq.
 
 <summary>Desktop Wireframe</summary>
 
+![Desktop Wireframe](docs/Wireframe/wireframe-desktop.png)
+
 </details>
 
 <details>
 
 <summary>Mobile Wireframe</summary>
+
+![Mobile Wireframe](docs/Wireframe/wireframe-mobile.png)
 
 </details>
 
