@@ -198,6 +198,8 @@ I would like to thank everyone on the Slack community who helped me when i got s
 
 I would also like to thank my mentor Antonio for the help he gave me and his input in the project.
 
+I Created this README with help from the wonderful work of Alison O'Keeffes README.
+
 
 
 
