@@ -61,20 +61,31 @@ Wireframes were produced using Balsamiq.
 - ### Navigation
 
   - The navigation bar in the header section is responsive and can with just two clicks take you the a specific section of the site
-  - The navigation is set to a fixed position meaning that if you are currently looking at some pictues in the middle of the site, you can still see the header with the menu. This feature makes it very user friendly. 
+  - The navigation is set to a fixed position meaning that if you are currently looking at some pictues in the middle of the site, you can still see the header with the menu. This feature makes it very user friendly.
 
-- ### The Home page
+![Nav bar image](docs/readme_images/nav-bar.png)
+
+
+- ### The Landing page
   - The Home page displays an image which tells the user what kind of site this is and what they can expect to fint here.
   - If you scroll down a bit you will find some of the most iconic players in the history of the club and some pictues of them.
+
+![Landing page image](docs/readme_images/landing-page.png)
   
 - ### The Gallery page
   - The Gallery page is a made to let the user scroll through some historical moments in the clubs history.
 
+![Gallery page image](docs/readme_images/gallery-section.png) 
+
 - ### The Sign-up page
   - The signup page is imporant to give the user an opportunity to get more info and updates regarding the site and the club.
 
+![Signup page image](docs/readme_images/signup-section.png) 
+
 - ### Footer
   - in the footer section you can find all the links to our social media groups on Facebook, Twitter, Youtube and Instagram.
+
+![Footer image](docs/readme_images/footer.png) 
 
 ### Features Left to Implement
 
