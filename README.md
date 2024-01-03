@@ -101,3 +101,8 @@ Wireframes were produced using Balsamiq.
 - #### CSS
   - No errors were found when passing through the official W3C CSS Validator
     - [W3C CSS Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fantongustafsson97.github.io%2FLiverpool-Footballclub-Info-page%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
+
+- #### Accessibility
+  - The site achieved a Lighthouse accessibility score of 100% which means that the fonts and colors are easy to read.
+
+![Lighthouse score](docs/readme_images/lighthouse_image.png)
