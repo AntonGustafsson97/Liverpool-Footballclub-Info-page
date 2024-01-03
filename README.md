@@ -110,4 +110,23 @@ Wireframes were produced using Balsamiq.
 ### Form Testing
 - The form is tested and it will not allow you to submit without entering an email address and your fullname and lastname.
 
+### Links Testing
+
+- All navigation links were tested manually to ensure the user is directed to the correct section of the website.
+- The social media links in the footer have been tested manually to ensure you are directed to the correct platform and that it opens in a new window.
+
+### Browser Testing
+
+-The website has been tested on Google chrome, Safari, Firefox and Microsoft Edge. No errors noted.
+
+### Device Testing
+
+-The website was tested on multiple devices such as Samsung Galaxy Fold, Ipad mini, Iphone x, Desktop and Laptop. It works as it should on all devices and it is responsive.
+-The following website were used for responsive tests:
+   
+   - [Responsinator] (http://www.responsinator.com/?url=https%3A%2F%2Fantongustafsson97.github.io%2FLiverpool-Footballclub-Info-page%2Findex.html)
+   - [Am i responsive] (https://ui.dev/amiresponsive?url=https://antongustafsson97.github.io/Liverpool-Footballclub-Info-page/index.html)
+
+
+
 
