@@ -72,7 +72,7 @@ Wireframes were produced using Excalidraw.
 
 - ### The Landing page
   - The Home page displays an image which tells the user what kind of site this is and what they can expect to fint here.
-  - If you scroll down a bit you will find some of the most iconic players in the history of the club and some pictues of them.
+  - If you scroll down a bit you will find some information about the most iconic players in the history of the club and some pictues of them.
 
 ![Landing page image](docs/readme_images/landing-page.png)
   
@@ -179,13 +179,13 @@ The live link can be found here - [Liverpool FC Info Page](https://antongustafss
 ## Credits
 
 ### Content
-All information about the club and players was found at these websites:
+All information about the club and players was found on these websites:
 
 -[Give Me Sport](https://www.givemesport.com/)
 -[Wikipedia](https://www.wikipedia.org/)
 
 ### Media
-All the images displayed on the website was found on these website:
+All the images displayed on the website was found on these websites:
 
 -[Britanica](https://www.britannica.com/)
 -[Wikipedia](https://www.wikipedia.org/)
