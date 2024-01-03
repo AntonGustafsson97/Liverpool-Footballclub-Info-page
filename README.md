@@ -42,7 +42,7 @@ Sans Serif is used as a backup font, in case for any reason the main font isn't 
 
 ## Wireframes
 
-Wireframes were produced using Balsamiq.
+Wireframes were produced using Excalidraw.
 
 <details>
 
@@ -161,6 +161,7 @@ I asked my family and a couple of friends to look at the website and tell me any
 - [Google Fonts](https://fonts.google.com/) - Used to import and alter fonts on the page.
 - [TinyPNG](https://tinypng.com/) - Used to compress images to reduce file size without a reduction in quality.
 - [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
+- [Excalidraw](https://excalidraw.com/) - Used for creating wireframes.
 
 ## Deployment
 
