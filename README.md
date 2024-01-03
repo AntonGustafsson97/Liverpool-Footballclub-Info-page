@@ -56,7 +56,7 @@ Wireframes were produced using Balsamiq.
 
 <summary>Mobile Wireframe</summary>
 
-![Mobile Wireframe](docs/Wireframe/wireframe-mobile.png)
+![Mobile Wireframe](docs/Wireframe/Wireframe-mobile.png)
 
 </details>
 
