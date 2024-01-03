@@ -106,3 +106,8 @@ Wireframes were produced using Balsamiq.
   - The site achieved a Lighthouse accessibility score of 100% which means that the fonts and colors are easy to read.
 
 ![Lighthouse score](docs/readme_images/lighthouse_image.png)
+
+### Form Testing
+- The form is tested and it will not allow you to submit without entering an email address and your fullname and lastname.
+
+
